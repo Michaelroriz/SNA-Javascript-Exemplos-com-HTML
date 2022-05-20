@@ -1,0 +1,29 @@
+<!-- Michael Advincola Roriz, 20/05/2022 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor R$ -> US$</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        const cotDollars = (() => {
+            return prompt(
+                "Antes de mais nada. Quanto está a contação do dólar agora?"
+            ).replace(",", ".");
+        })();
+    </script>
+</head>
+
+<body>
+    <h1>Conversor R$ -> US$</h1>
+    <button onclick="teste()">Converter</button>
+    <section id="result">
+        <p>Clique no botão acima para iniciar</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
